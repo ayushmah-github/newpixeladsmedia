@@ -1,0 +1,48 @@
+.container {
+    text-align: center;
+    padding: 50px;
+}
+.container h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.service-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.service-box {
+    background-color: #f4c542;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+.service-box:nth-child(2) {
+    background-color: #f9e79f;
+}
+.service-box i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.service-box h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.service-box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.service-box a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.service-box a:hover {
+    text-decoration: underline;
+}

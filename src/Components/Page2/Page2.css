@@ -1,0 +1,95 @@
+.why-us-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .why-us-content {
+    max-width: 600px;
+  }
+  
+  .why-us-content h1 {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .why-us-content h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  .why-us-content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill span {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    background-color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+  }
+  
+  .progress {
+    background-color: #ffcc00;
+    height: 100%;
+    color: #000;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .experience-card {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #fff 50%, #ffcc00 50%);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 150px;
+  }
+  
+  .experience-content {
+    flex: 1;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bee-icon {
+    background-color: #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .bee-icon img {
+    width: 50px;
+    height: auto;
+  }
+  

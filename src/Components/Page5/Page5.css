@@ -1,0 +1,79 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-box {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.quote-box img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.quote-box .text {
+    display: flex;
+    flex-direction: column;
+}
+.quote-box .text .name {
+    font-weight: bold;
+}
+.quote-box .text .company {
+    font-size: 0.8em;
+    color: #cccccc;
+}
+.right-section {
+    text-align: left;
+}
+.right-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.right-section p {
+    font-size: 1em;
+    color: #666666;
+    margin: 20px 0;
+}
+.contact-button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+}
+.contact-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #FFD700;
+    border-radius: 20px;
+    z-index: -1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.map {
+    width: 300px;
+    height: auto;
+}
